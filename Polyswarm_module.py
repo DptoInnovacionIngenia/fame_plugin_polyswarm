@@ -37,7 +37,7 @@ class Polyswarm_module(ProcessingModule):
         poly = PolyswarmAPI(key=self.api_key)
 
         if file_type == 'url' or file_type == 'msg' or file_type == 'eml':
-	        pass
+	    pass
 	else:
             positives = 0
             total = 0
